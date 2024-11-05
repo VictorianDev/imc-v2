@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --cor001: #F2F2F2;
+  --cor002: #92B0BB;
+  --cor003: #5EBFBF;
+  --cor004: #3B7D8C;
+  --cor005: #193B59;
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to top, #92B0BB , #5EBFBF 60%);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: var(--cor001);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form input, form label, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 1px solid var(--cor003);
+}
+
+form button {
+  border: none;
+  background: var(--cor003);
+  color: #fff;
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.342);
+  font-size: 1em;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.479);
+}
+
+form button:hover {
+  background: var(--cor004);
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.356);
+}
+
+form button:active {
+  background-color: var(--cor005);
+  box-shadow: none;
+}
+
+.paragrafo-resultado, .bad {
+  background-color: var(--cor002);
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.bad {
+  background-color: rgb(255, 150, 150);
+}
+
+div{
+  text-align: center;
+}
+
+div #imagem {
+  border-radius: 50%;;
+  width: 200px;
+  height: 200px;
+}
+
+footer {
+  color: #fff;
+  text-align: center;
+  font: italic;
+  background-color: var(--cor004);
+  line-height: 20px;
+  padding: 1px 0px 
+}
+
+footer p {
+  font-size: small;
+}
